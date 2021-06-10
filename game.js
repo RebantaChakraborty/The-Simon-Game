@@ -14,7 +14,7 @@ function nextSequence(){
    ++level;
 }
 function playSound(name){
-    var audio=new Audio("sounds/"+name+".mp3");
+    var audio=new Audio(+name+".mp3");
     audio.muted=true;
     audio.play();
     audio.muted=false;
