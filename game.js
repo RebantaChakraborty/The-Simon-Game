@@ -41,7 +41,7 @@ function checkPattern(currentLevel){
     }
     else{
         console.log("Unsuccessful");
-        let wrong=new Audio("sounds/wrong.mp3");
+        let wrong=new Audio("wrong.mp3");
         wrong.play();
         $("body").addClass("game-over");
         
